@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Introduction</title>
+
+	<link rel="stylesheet" href="/dist/reset.css">
+	<link rel="stylesheet" href="/dist/reveal.css">
+	<link rel="stylesheet" href="/dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="/plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<h1>He</h1>
+	<div class="reveal">
+		<div class="slides">
+			<section>Let's Start</section>
+			<!-- who -->
+			<section>
+				<section>
+					<h2>who am i ?</h2>
+				</section>
+				<section>
+					<img src="/image/presentation/profile.png" style="border-radius: 50%; width: 200px;" alt="" />
+					<h5>Joko Slamet</h5>
+					<h6>S1 Pendidikan Teknologi Informasi</h6>
+					<h6>Universitas Negeri Surabaya</h6>
+				</section>
+			</section>
+			<!-- where -->
+			<section>
+				<section>
+					<h2>Where ?</h2>
+				</section>
+				<section>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126607.62994156356!2d112.49293798695277!3d-7.411067544327003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780c0e8eb19677%3A0x4027a76e3531c70!2sTarik%2C%20Sidoarjo%20Regency%2C%20East%20Java%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1629189921628!5m2!1sen!2sus"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					<p>
+						Tarik, Sidoarjo
+					</p>
+				</section>
+			</section>
+			<!-- what -->
+			<section>
+				<section>
+					<h2 data-id="code-title">What ?</h2>
+				</section>
+				<section data-auto-animate>
+					<h4>Pemrograman</h4>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+					import React, { useState } from 'react';
+
+					function Example() {
+						const [count, setCount] = useState(0);
+
+						return (
+							<div>
+								<p>You clicked {count} times</p>
+								<button onClick={() => setCount(count + 1)}>
+									Click me
+								</button>
+							</div>
+						);
+					}
+					function SecondExample() {
+						const [count, setCount] = useState(0);
+
+						return (
+							<div>
+								<p>You clicked {count} times</p>
+								<button onClick={() => setCount(count + 1)}>
+									Click me
+								</button>
+							</div>
+						);
+					}
+				</script></code></pre>
+				</section>
+			</section>
+			<!-- why -->
+			<section>
+				<section>
+					<h2>Why ?</h2>
+				</section>
+				<section data-background="#dddddd">
+					<img src="/image/presentation/why.jpg" style="border-radius: 5%;" alt="" />
+					<h6>Teknologi</h6>
+				</section>
+			</section>
+			<!-- How -->
+			<section>
+				<section>
+					<h2>Why ?</h2>
+				</section>
+				<section data-background="#dddddd">
+					<img src="/image/presentation/why.jpg" style="border-radius: 5%;" alt="" />
+					<h6>Teknologi</h6>
+				</section>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="/dist/reveal.js"></script>
+	<script src="/plugin/notes/notes.js"></script>
+	<script src="/plugin/markdown/markdown.js"></script>
+	<script src="/plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
