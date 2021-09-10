@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Introduction</title>
+
+  <link rel="stylesheet" href="/dist/reset.css">
+  <link rel="stylesheet" href="/dist/reveal.css">
+  <link rel="stylesheet" href="/dist/theme/sky.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="/plugin/highlight/monokai.css">
+  <style>
+    li {
+      font-size: smaller;
+    }
+
+    span {
+      font-size: smaller;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>Getting Started</section>
+      <section>
+        <section style="text-align: start;">
+          <h4>Instalasi</h4>
+          1. <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a> <br>
+          2. <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> <br>
+        </section>
+      </section>
+      <section>
+        <section>
+          Python Keywords and Identifiers
+        </section>
+        <section>
+          <h3>Python Keyword</h3>
+          <span>Kata kunci adalah kata – kata yang sudah ditetapkan dan dipakai Python untuk mendefinisikan sintaks dan
+            struktur bahasa python sendiri. Kata kunci tidak bisa digunakan sebagai nama variabel, fungsi, maupun nama
+            untuk pengenal lainnya.</span>
+        </section>
+        <section>
+          <img src="/image/presentation//keyword.png" style="border-radius: 15px;" alt="">
+        </section>
+        <section>
+          <h6>Python Identifiers</h6>
+          <span>adalah nama yang diberikan untuk menamai entitas di python seperti variabel, fungsi, kelas, dan lain
+            sebagainya. Fungsinya adalah untuk membedakan antara satu entitas dengan yang lainnya.</span>
+        </section>
+        <section style="text-align: left;">
+          <h6>Aturan Penulisan</h6>
+          <ul>
+            <li>Pengenal bisa terdiri dari kombinasi huruf kecil (a-z) atau huruf besar (A-Z), angka ( 0-9 ), dan
+              underscore ( _ ). namaKaryawan, bilangan_2, dan jenis_kenderaan_umum adalah nama variabel yang valid.</li>
+            <li>Pengenal tidak bisa dimulai menggunakan angka. 1nama adalah invalid sedangkan nama1 adalah valid.</li>
+            <li>Kata kunci tidak bisa dipakai sebagai nama pengenal.</li>
+            <li>Karakter spesial seperti !, @, %, $, dan sebagainya tidak bisa digunakan sebagai pengenal.</li>
+            <li>Python bersifat case sensitive. Huruf besar dan kecil dianggap berbeda. Jadi Variabel, variabel, dan
+              VARIABEL, adalah 3 buah nama yang berbeda.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Python Case Sensitivity</h4>
+          <p style="text-align: left;">Python bersifat case sensitif, ini artinya huruf besar dan huruf kecil memiliki
+            perbedaan. Sebagai contoh
+            jika Anda menggunakan fungsi print dengan huruf kecil print() akan berhasil. Lain hal jika anda menggunakan
+            huruf kapital Print() atau PRINT() , akan muncul pesan error.
+            Aturan ini berlaku untuk nama variabel ataupun fungsi-fungsi lainnya.</p>
+        </section>
+      </section>
+      <section>
+        <section>
+          Penulisan Sintaks
+        </section>
+        Kata kunci adalah kata – kata yang sudah ditetapkan dan dipakai Python untuk mendefinisikan sintaks dan struktur bahasa python sendiri. Kata kunci tidak bisa digunakan sebagai nama variabel, fungsi, maupun nama untuk pengenal lainnya.
+
+
+        <section>
+          		<pre><code data-trim >
+print("Belajar Pemrograman Dasar")
+              </code></pre>
+        </section>
+      </section>
+    </div>
+  </div>
+
+  <script src="/dist/reveal.js"></script>
+  <script src="/plugin/notes/notes.js"></script>
+  <script src="/plugin/markdown/markdown.js"></script>
+  <script src="/plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
